@@ -1,4 +1,6 @@
 import React, { useLayoutEffect, useState } from 'react';
+import send from '../images/send.png'
+
 
 const Input = (props) => {
   const [text, setText] = useState('');
@@ -17,10 +19,10 @@ const Input = (props) => {
         onChange={(e) => setText(e.target.value)}
         value={text}
         type="text"
-        placeholder="Enter your message and press ENTER"
+        placeholder="Start a new message"
         autoFocus
       />
-      <button>Send</button>
+      <button><img src={send} alt="send" /></button>
     </form>
   </div>
     );

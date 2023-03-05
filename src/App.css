@@ -6,7 +6,7 @@
 }
 
 .App-header {
-  background-color: #262626;
+  background-color: #21978B;
   overflow: visible;
   width: 100%;
   text-align: center;
@@ -30,7 +30,7 @@
 }
 
 .Messages-message.currentMember {
-  /*justify-content: flex-end;*/
+  /* justify-content: flex-end; */
   flex-direction: row-reverse;
   text-align: right;
 }
@@ -62,14 +62,15 @@
   padding: 10px;
   max-width: 400px;
   margin: 0;
-  border-radius: 12px;
-  background-color: cornflowerblue;
-  color: white;
+  border-radius: 18px;
+  background-color: #F5F5F5;
+  color: #141414;
   display: inline-block;
 }
 
 .currentMember > .Message-content .text {
-  background-color: orangered;
+  background-color: #21978B;
+  color: #FBFBFD
 }
 
 form {
@@ -83,17 +84,23 @@ form {
 input {
   padding: 5px;
   font-size: 16px;
-  border-radius: 8px;
-  border: 1px solid orangered;
+  border-radius: 24px;
+  border: 1px solid #E8E8E8;
   flex-grow: 1;
+  padding-left: 26px;
 }
 
 button {
   padding: 5px 10px;
   font-size: 16px;
-  background-color: orangered;
+  background-color: white;
   color: white;
   border: none;
   border-radius: 8px;
   margin-left: 10px;
+}
+
+.OK-button{
+  background-color: #21978B;
+  color: white;
 }
