@@ -10,12 +10,11 @@ const Messages = (props) => {
         const messageFromMe = member.id === currentMember.id;
         const className = messageFromMe ? "Messages-message currentMember" : "Messages-message";
 
-        var randomId = require('random-id');
-        var len = 30;
-        var pattern = "aA0"
+        const randomId = require('random-id');
+        const len = 30;
+        const pattern = "aA0"
 
-        var key = randomId(len, pattern)
-
+        const key = randomId(len, pattern)
         
         return (
             <li className={className} key={key}>
@@ -25,7 +24,7 @@ const Messages = (props) => {
                 />
                 <div className="Message-content">
                     <div className="username">
-                    {member.username}
+                    {member.clientData.username}
                     </div>
                     <div className="text">{text}</div>
                 </div>
