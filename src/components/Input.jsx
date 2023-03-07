@@ -7,7 +7,9 @@ const Input = (props) => {
   const handleSubmit = (event) => {
     event.preventDefault();
     props.onSendMessage(text);
+    setText('')
   }
+
 
 
   return (
