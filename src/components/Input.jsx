@@ -10,8 +10,6 @@ const Input = (props) => {
     setText('')
   }
 
-
-
   return (
     <div className="Input">
     <form onSubmit={handleSubmit}>
