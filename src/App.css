@@ -62,13 +62,13 @@
   max-width: 400px;
   margin: 0;
   border-radius: 18px;
-  background-color: white;
-  color: black;
+  background-color: rgb(95, 92, 92);
+  color: white;
   display: inline-block;
 }
 
 .currentMember > .Message-content .text {
-  background-color: #dcf1ef;
+  background-color: #9f80ed;
   color: #FBFBFD
 }
 
