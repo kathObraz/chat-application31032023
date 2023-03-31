@@ -1,5 +1,5 @@
 import React from "react";
-import id from "random-id"
+
 
 const Messages = (props) => {
     console.log(props.messages);
@@ -11,8 +11,8 @@ const Messages = (props) => {
         const className = messageFromMe ? "Messages-message currentMember" : "Messages-message";
 
         const randomId = require('random-id');
-        const len = 30;
-        const pattern = "aA0"
+        const len = 60;
+        const pattern = ""
 
         const key = randomId(len, pattern)
         

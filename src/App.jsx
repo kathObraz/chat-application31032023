@@ -64,7 +64,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1 className="App-header">My chat app</h1>
+      <h1 className="App-header">Very basic chat application</h1>
       <Messages 
         messages={messages}
         currentMember={user}
