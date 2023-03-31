@@ -10,14 +10,9 @@ const Messages = (props) => {
         const messageFromMe = member.id === currentMember.id;
         const className = messageFromMe ? "Messages-message currentMember" : "Messages-message";
 
-        const randomId = require('random-id');
-        const len = 60;
-        const pattern = ""
-
-        const key = randomId(len, pattern)
         
         return (
-            <li className={className} key={key}>
+            <li className={className}>
                 <span
                     className="avatar"
                     style={{backgroundColor: member.color}}
